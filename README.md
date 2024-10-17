@@ -31,25 +31,25 @@ Step-by-Step Process:
 
       If creating a new schedule, you will be taken to the Snapshot Scheduler page. Provide the following information:
       
-      Name: Provide a descriptive name for the schedule.
+      **Name**: Provide a descriptive name for the schedule.
       
-      Description: Optionally, add a description of the schedule for future reference.
+      **Description**: Optionally, add a description of the schedule for future reference.
       
-      Snapshot Storage Location: Choose either Multi-regional or Regional storage, depending on your redundancy needs.
+      **Snapshot Storage Location**: Choose either Multi-regional or Regional storage, depending on your redundancy needs.
       
-      Schedule Options:
+      **Schedule Options**:
       
-      Schedule Frequency: Set the frequency to Daily.
-      Start Time (UTC): Set the time to 8:00 AM - 9:00 AM UTC (you may adjust based on your needs).
-      Autodelete Snapshots After: Set the retention period (e.g., 7 days).
+      **Schedule Frequency**: Set the frequency to Daily.
+      **Start Time (UTC)**: Set the time to 8:00 AM - 9:00 AM UTC (you may adjust based on your needs).
+      **Autodelete Snapshots After**: Set the retention period (e.g., 7 days).
       Deletion Rule:
       
-      Choose Keep snapshots to retain snapshots even after the disk is deleted.
+      **Choose Keep snapshots to retain snapshots even after the disk is deleted.
       Application Consistency (Optional):
       
       Enable Application Consistent Snapshots if you want to ensure that all pending writes on the disk are flushed before a snapshot is taken. This uses guest flush or VSS, ensuring consistent backups when the disk is in use.
       Make sure your guest VM supports this feature.
-      Snapshot Labels: Optionally, add labels to the snapshot for easy identification and management.
+      **Snapshot Labels**: Optionally, add labels to the snapshot for easy identification and management.
 
 -  Create the Schedule:
 
