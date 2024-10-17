@@ -8,6 +8,8 @@ the snap scheduler will run on every day at 5am and will take the jenkins server
 To ensure consistent backups of your Jenkins server running on a Google Cloud VM, you can attach a snapshot schedule to the disk associated with your Jenkins VM. The schedule will take daily snapshots of the disk and store them in Google Cloud for future recovery in case of mishaps.
 
 Step-by-Step Process:
+---------------------
+
 1.  Go to the Disks Page:
 
   In the Google Cloud Console, navigate to the Disks page.
