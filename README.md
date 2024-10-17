@@ -10,23 +10,25 @@ To ensure consistent backups of your Jenkins server running on a Google Cloud VM
 Step-by-Step Process:
 ---------------------
 
-1.  Go to the Disks Page:
-------------------------
+-  Go to the Disks Page:
+
 
   In the Google Cloud Console, navigate to the Disks page.
 
-2.  Select the Disk:
---------------------
+-  Select the Disk:
 
   From the list of disks, select the name of the disk you want to attach the snapshot schedule to. In this case, the disk is named jenkins-europe. This will open the Manage Disk page.
-3.  Edit Disk Settings:
+
+-  Edit Disk Settings:
 
   On the Manage Disk page, click the Edit button to modify the disk’s configuration.
-4.  Attach Snapshot Schedule:
+
+-  Attach Snapshot Schedule:
 
   In the Snapshot Schedule section, use the drop-down menu to select an existing snapshot schedule.
   Alternatively, you can create a new schedule for the disk by selecting the "Create New Schedule" option.
-5.  Configure the Snapshot Schedule:
+
+-  Configure the Snapshot Schedule:
 
       If creating a new schedule, you will be taken to the Snapshot Scheduler page. Provide the following information:
       
@@ -50,9 +52,10 @@ Step-by-Step Process:
       Make sure your guest VM supports this feature.
       Snapshot Labels: Optionally, add labels to the snapshot for easy identification and management.
 
-6.  Create the Schedule:
+-  Create the Schedule:
 
     After filling out the necessary fields, click Create to finalize the snapshot schedule.
-7.  Save Changes to the Disk:
+
+-  Save Changes to the Disk:
 
     Go back to the Manage Disk page and click Save to attach the snapshot schedule to your Jenkins server disk.
