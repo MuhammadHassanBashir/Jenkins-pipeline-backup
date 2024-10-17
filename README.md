@@ -1,7 +1,6 @@
 # Jenkins-pipeline-backup
 
-I need to create backups for jenkins pipeline for securing jenkins server for any mishaps. My jenkins server is running in gcp vm. So what i did, i created a snapshot schedule in gcp and attached this snap schedule with jenkins vm disk.
-the snap scheduler will run on every day at 5am and will take the jenkins server disk snapshot and save it to gcp snapshot section. 
+I need to create backups for my Jenkins pipeline to secure the Jenkins server against any potential mishaps. My Jenkins server is running on a GCP VM, so I created a snapshot schedule in GCP and attached it to the Jenkins VM disk. The snapshot scheduler will run daily at 5 AM, taking a snapshot of the Jenkins server disk and saving it to the GCP Snapshots section
 
 ## Steps to Attach a Snapshot Schedule to the Jenkins Server Disk
 
