@@ -11,9 +11,12 @@ Step-by-Step Process:
 ---------------------
 
 1.  Go to the Disks Page:
+------------------------
 
   In the Google Cloud Console, navigate to the Disks page.
+
 2.  Select the Disk:
+--------------------
 
   From the list of disks, select the name of the disk you want to attach the snapshot schedule to. In this case, the disk is named jenkins-europe. This will open the Manage Disk page.
 3.  Edit Disk Settings:
