@@ -46,7 +46,7 @@ Step-by-Step Process:
       
       **Choose Keep snapshots to retain snapshots even after the disk is deleted.
       
-Application Consistency (Optional): disable this other wise schedular will not work. I have test this.
+Application Consistency (Optional): Disable this other wise schedular will not work. I have tested this.
       
       Disable Application Consistent Snapshots if you want to ensure that all pending writes on the disk are flushed before a snapshot is taken. This uses guest flush or VSS, ensuring consistent backups when the disk is in use.
       
