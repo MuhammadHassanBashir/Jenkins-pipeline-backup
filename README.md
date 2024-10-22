@@ -45,10 +45,11 @@ Step-by-Step Process:
       Deletion Rule:
       
       **Choose Keep snapshots to retain snapshots even after the disk is deleted.
-      Application Consistency (Optional):
       
-      Enable Application Consistent Snapshots if you want to ensure that all pending writes on the disk are flushed before a snapshot is taken. This uses guest flush or VSS, ensuring consistent backups when the disk is in use.
-      Make sure your guest VM supports this feature.
+Application Consistency (Optional): disable this other wise schedular will not work. I have test this.
+      
+      Disable Application Consistent Snapshots if you want to ensure that all pending writes on the disk are flushed before a snapshot is taken. This uses guest flush or VSS, ensuring consistent backups when the disk is in use.
+      
       **Snapshot Labels**: Optionally, add labels to the snapshot for easy identification and management.
 
 -  Create the Schedule:
